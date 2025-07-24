@@ -55,9 +55,9 @@ export default function Home() {
             {/* Social Links */}
             <div className="flex justify-center space-x-6 animate-fade-in-up animation-delay-1200">
               {[
-                { icon: Github, href: "#" },
-                { icon: Linkedin, href: "#" },
-                { icon: Mail, href: "#" },
+                { icon: Github, href: "https://github.com/McAlwatan" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/ially/" },
+                { icon: Mail, href: "ibrahim.ikikolo@gmail.com" },
               ].map((social, index) => (
                 <a
                   key={index}
@@ -78,10 +78,10 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4">
           <div className="grid md:grid-cols-4 gap-8">
             {[
-              { icon: Code, number: "5+", label: "Years Experience" },
+              { icon: Code, number: "9+", label: "Years Experience" },
               { icon: Zap, number: "50+", label: "Projects Completed" },
               { icon: Users, number: "25+", label: "Happy Clients" },
-              { icon: Award, number: "10+", label: "Technologies Mastered" },
+              { icon: Award, number: "5+", label: "Technologies Mastered" },
             ].map((stat, index) => (
               <div
                 key={index}
@@ -123,7 +123,7 @@ export default function Home() {
               {
                 title: "SaaS Analytics Dashboard",
                 description: "Real-time business intelligence platform",
-                tags: ["Next.js", "Python", "MongoDB", "D3.js"],
+                tags: ["Next.js", "Python", "MongoDB", "Nest.js"],
                 detail:
                   "Developed an AI-powered analytics platform processing 1M+ data points daily with predictive insights, custom reporting, and automated alerts.",
                 metric: "50% faster decision making",
@@ -131,7 +131,7 @@ export default function Home() {
               {
                 title: "Mobile Banking App",
                 description: "Secure financial management solution",
-                tags: ["React Native", "Express.js", "Redis", "AWS"],
+                tags: ["React Native", "Express.js", "Flutter", "AWS"],
                 detail:
                   "Created a secure mobile banking application with biometric authentication, real-time transactions, and advanced fraud detection systems.",
                 metric: "99.9% uptime achieved",
