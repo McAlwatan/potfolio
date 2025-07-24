@@ -103,7 +103,7 @@ export default function Contact() {
                 <CardDescription>Get in touch via email</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-lg font-semibold mb-2">ibrahim.dev@email.com</p>
+                <p className="text-lg font-semibold mb-2">ibrahim.ikikolo@gmail.com</p>
                 <p className="text-sm text-gray-600 mb-4">I typically respond within 2-4 hours</p>
                 <Button
                   variant="outline"
@@ -121,8 +121,8 @@ export default function Contact() {
                 <CardDescription>Let's talk directly</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-lg font-semibold mb-2">+1 (555) 123-4567</p>
-                <p className="text-sm text-gray-600 mb-4">Available Mon-Fri, 9AM-6PM EST</p>
+                <p className="text-lg font-semibold mb-2">+255 (765) 15106</p>
+                <p className="text-sm text-gray-600 mb-4">Available Mon-Fri, 9AM-6PM EAT</p>
                 <Button
                   variant="outline"
                   className="border-black text-black hover:bg-black hover:text-white bg-transparent"
@@ -136,10 +136,10 @@ export default function Contact() {
               <CardHeader>
                 <MapPin className="h-12 w-12 mx-auto mb-4 text-black" />
                 <CardTitle>Location</CardTitle>
-                <CardDescription>Based in New York</CardDescription>
+                <CardDescription>Based in Dar es Salaam</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-lg font-semibold mb-2">New York, NY</p>
+                <p className="text-lg font-semibold mb-2">DSM, Tanzania</p>
                 <p className="text-sm text-gray-600 mb-4">Open to remote work worldwide</p>
                 <Button
                   variant="outline"
