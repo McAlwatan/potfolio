@@ -118,27 +118,49 @@ export default function About() {
                   <div>
                     <h4 className="font-semibold mb-2">Core Technologies</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">React</Badge>
-                      <Badge variant="outline">Next.js</Badge>
-                      <Badge variant="outline">TypeScript</Badge>
-                      <Badge variant="outline">Vue.js</Badge>
+                      <Badge variant="outline" className="border-[#61DAFB] text-[#61DAFB]">
+                        React
+                      </Badge>
+                      <Badge variant="outline" className="border-black text-black">
+                        Next.js
+                      </Badge>
+                      <Badge variant="outline" className="border-[#3178C6] text-[#3178C6]">
+                        TypeScript
+                      </Badge>
+                      <Badge variant="outline" className="border-[#4FC08D] text-[#4FC08D]">
+                        Vue.js
+                      </Badge>
                     </div>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">Styling & Design</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">Tailwind CSS</Badge>
-                      <Badge variant="outline">Sass</Badge>
-                      <Badge variant="outline">Styled Components</Badge>
-                      <Badge variant="outline">Figma</Badge>
+                      <Badge variant="outline" className="border-[#06B6D4] text-[#06B6D4]">
+                        Tailwind CSS
+                      </Badge>
+                      <Badge variant="outline" className="border-[#CC6699] text-[#CC6699]">
+                        Sass
+                      </Badge>
+                      <Badge variant="outline" className="border-[#DB7093] text-[#DB7093]">
+                        Styled Components
+                      </Badge>
+                      <Badge variant="outline" className="border-[#F24E1E] text-[#F24E1E]">
+                        Figma
+                      </Badge>
                     </div>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">State Management</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">Redux</Badge>
-                      <Badge variant="outline">Zustand</Badge>
-                      <Badge variant="outline">Context API</Badge>
+                      <Badge variant="outline" className="border-[#764ABC] text-[#764ABC]">
+                        Redux
+                      </Badge>
+                      <Badge variant="outline" className="border-[#2D3748] text-[#2D3748]">
+                        Zustand
+                      </Badge>
+                      <Badge variant="outline" className="border-[#61DAFB] text-[#61DAFB]">
+                        Context API
+                      </Badge>
                     </div>
                   </div>
                 </div>
@@ -156,27 +178,49 @@ export default function About() {
                   <div>
                     <h4 className="font-semibold mb-2">Runtime & Frameworks</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">Node.js</Badge>
-                      <Badge variant="outline">Express.js</Badge>
-                      <Badge variant="outline">Python</Badge>
-                      <Badge variant="outline">FastAPI</Badge>
+                      <Badge variant="outline" className="border-[#339933] text-[#339933]">
+                        Node.js
+                      </Badge>
+                      <Badge variant="outline" className="border-[#000000] text-[#000000]">
+                        Express.js
+                      </Badge>
+                      <Badge variant="outline" className="border-[#3776AB] text-[#3776AB]">
+                        Python
+                      </Badge>
+                      <Badge variant="outline" className="border-[#009688] text-[#009688]">
+                        FastAPI
+                      </Badge>
                     </div>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">APIs & Integration</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">REST APIs</Badge>
-                      <Badge variant="outline">GraphQL</Badge>
-                      <Badge variant="outline">WebSocket</Badge>
-                      <Badge variant="outline">Microservices</Badge>
+                      <Badge variant="outline" className="border-[#FF6C37] text-[#FF6C37]">
+                        REST APIs
+                      </Badge>
+                      <Badge variant="outline" className="border-[#E10098] text-[#E10098]">
+                        GraphQL
+                      </Badge>
+                      <Badge variant="outline" className="border-[#010101] text-[#010101]">
+                        WebSocket
+                      </Badge>
+                      <Badge variant="outline" className="border-[#2496ED] text-[#2496ED]">
+                        Microservices
+                      </Badge>
                     </div>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">Authentication</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">JWT</Badge>
-                      <Badge variant="outline">OAuth</Badge>
-                      <Badge variant="outline">Auth0</Badge>
+                      <Badge variant="outline" className="border-[#000000] text-[#000000]">
+                        JWT
+                      </Badge>
+                      <Badge variant="outline" className="border-[#EB5424] text-[#EB5424]">
+                        OAuth
+                      </Badge>
+                      <Badge variant="outline" className="border-[#EB5424] text-[#EB5424]">
+                        Auth0
+                      </Badge>
                     </div>
                   </div>
                 </div>
@@ -194,25 +238,43 @@ export default function About() {
                   <div>
                     <h4 className="font-semibold mb-2">Relational Databases</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">PostgreSQL</Badge>
-                      <Badge variant="outline">MySQL</Badge>
-                      <Badge variant="outline">SQLite</Badge>
+                      <Badge variant="outline" className="border-[#336791] text-[#336791]">
+                        PostgreSQL
+                      </Badge>
+                      <Badge variant="outline" className="border-[#4479A1] text-[#4479A1]">
+                        MySQL
+                      </Badge>
+                      <Badge variant="outline" className="border-[#003B57] text-[#003B57]">
+                        SQLite
+                      </Badge>
                     </div>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">NoSQL Databases</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">MongoDB</Badge>
-                      <Badge variant="outline">Redis</Badge>
-                      <Badge variant="outline">Firebase</Badge>
+                      <Badge variant="outline" className="border-[#47A248] text-[#47A248]">
+                        MongoDB
+                      </Badge>
+                      <Badge variant="outline" className="border-[#DC382D] text-[#DC382D]">
+                        Redis
+                      </Badge>
+                      <Badge variant="outline" className="border-[#FFCA28] text-[#FFCA28]">
+                        Firebase
+                      </Badge>
                     </div>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">ORMs & Tools</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">Prisma</Badge>
-                      <Badge variant="outline">Mongoose</Badge>
-                      <Badge variant="outline">Supabase</Badge>
+                      <Badge variant="outline" className="border-[#2D3748] text-[#2D3748]">
+                        Prisma
+                      </Badge>
+                      <Badge variant="outline" className="border-[#880000] text-[#880000]">
+                        Mongoose
+                      </Badge>
+                      <Badge variant="outline" className="border-[#3ECF8E] text-[#3ECF8E]">
+                        Supabase
+                      </Badge>
                     </div>
                   </div>
                 </div>
@@ -230,26 +292,46 @@ export default function About() {
                   <div>
                     <h4 className="font-semibold mb-2">Cloud Platforms</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">AWS</Badge>
-                      <Badge variant="outline">Vercel</Badge>
-                      <Badge variant="outline">Netlify</Badge>
-                      <Badge variant="outline">Digital Ocean</Badge>
+                      <Badge variant="outline" className="border-[#FF9900] text-[#FF9900]">
+                        AWS
+                      </Badge>
+                      <Badge variant="outline" className="border-[#000000] text-[#000000]">
+                        Vercel
+                      </Badge>
+                      <Badge variant="outline" className="border-[#00C7B7] text-[#00C7B7]">
+                        Netlify
+                      </Badge>
+                      <Badge variant="outline" className="border-[#0080FF] text-[#0080FF]">
+                        Digital Ocean
+                      </Badge>
                     </div>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">Containerization</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">Docker</Badge>
-                      <Badge variant="outline">Kubernetes</Badge>
-                      <Badge variant="outline">Docker Compose</Badge>
+                      <Badge variant="outline" className="border-[#2496ED] text-[#2496ED]">
+                        Docker
+                      </Badge>
+                      <Badge variant="outline" className="border-[#326CE5] text-[#326CE5]">
+                        Kubernetes
+                      </Badge>
+                      <Badge variant="outline" className="border-[#2496ED] text-[#2496ED]">
+                        Docker Compose
+                      </Badge>
                     </div>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">CI/CD & Monitoring</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">GitHub Actions</Badge>
-                      <Badge variant="outline">Jenkins</Badge>
-                      <Badge variant="outline">Sentry</Badge>
+                      <Badge variant="outline" className="border-[#2088FF] text-[#2088FF]">
+                        GitHub Actions
+                      </Badge>
+                      <Badge variant="outline" className="border-[#D33833] text-[#D33833]">
+                        Jenkins
+                      </Badge>
+                      <Badge variant="outline" className="border-[#362D59] text-[#362D59]">
+                        Sentry
+                      </Badge>
                     </div>
                   </div>
                 </div>
@@ -267,9 +349,15 @@ export default function About() {
                   <div>
                     <h4 className="font-semibold mb-2">Frameworks</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">React Native</Badge>
-                      <Badge variant="outline">Expo</Badge>
-                      <Badge variant="outline">Flutter</Badge>
+                      <Badge variant="outline" className="border-[#61DAFB] text-[#61DAFB]">
+                        React Native
+                      </Badge>
+                      <Badge variant="outline" className="border-[#000020] text-[#000020]">
+                        Expo
+                      </Badge>
+                      <Badge variant="outline" className="border-[#02569B] text-[#02569B]">
+                        Flutter
+                      </Badge>
                     </div>
                   </div>
                   <div>
@@ -283,8 +371,12 @@ export default function About() {
                   <div>
                     <h4 className="font-semibold mb-2">App Store</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">iOS App Store</Badge>
-                      <Badge variant="outline">Google Play</Badge>
+                      <Badge variant="outline" className="border-[#007AFF] text-[#007AFF]">
+                        iOS App Store
+                      </Badge>
+                      <Badge variant="outline" className="border-[#34A853] text-[#34A853]">
+                        Google Play
+                      </Badge>
                     </div>
                   </div>
                 </div>
@@ -302,25 +394,43 @@ export default function About() {
                   <div>
                     <h4 className="font-semibold mb-2">AI & Machine Learning</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">OpenAI API</Badge>
-                      <Badge variant="outline">TensorFlow</Badge>
-                      <Badge variant="outline">Langchain</Badge>
+                      <Badge variant="outline" className="border-[#412991] text-[#412991]">
+                        OpenAI API
+                      </Badge>
+                      <Badge variant="outline" className="border-[#FF6F00] text-[#FF6F00]">
+                        TensorFlow
+                      </Badge>
+                      <Badge variant="outline" className="border-[#1C3C3C] text-[#1C3C3C]">
+                        Langchain
+                      </Badge>
                     </div>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">Web3 & Blockchain</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">Ethereum</Badge>
-                      <Badge variant="outline">Web3.js</Badge>
-                      <Badge variant="outline">Smart Contracts</Badge>
+                      <Badge variant="outline" className="border-[#627EEA] text-[#627EEA]">
+                        Ethereum
+                      </Badge>
+                      <Badge variant="outline" className="border-[#F16822] text-[#F16822]">
+                        Web3.js
+                      </Badge>
+                      <Badge variant="outline" className="border-[#363636] text-[#363636]">
+                        Smart Contracts
+                      </Badge>
                     </div>
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">Performance</h4>
                     <div className="flex flex-wrap gap-2">
-                      <Badge variant="outline">WebAssembly</Badge>
-                      <Badge variant="outline">Service Workers</Badge>
-                      <Badge variant="outline">PWA</Badge>
+                      <Badge variant="outline" className="border-[#654FF0] text-[#654FF0]">
+                        WebAssembly
+                      </Badge>
+                      <Badge variant="outline" className="border-[#000000] text-[#000000]">
+                        Service Workers
+                      </Badge>
+                      <Badge variant="outline" className="border-[#5A0FC8] text-[#5A0FC8]">
+                        PWA
+                      </Badge>
                     </div>
                   </div>
                 </div>
